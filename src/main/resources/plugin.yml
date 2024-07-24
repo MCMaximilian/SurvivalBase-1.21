@@ -1,0 +1,10 @@
+name: SurvivalBase
+version: '${version}'
+main: com.mcmaximilian.SurvivalBase
+api-version: '1.20'
+description: This is help plugin of minecraft survival.
+commands:
+  pos:
+    description: Position command
+    usage: /pos => Broadcast your position
+    aliases: [ "position", "location"]
